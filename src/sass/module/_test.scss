@@ -1,0 +1,38 @@
+@use "global" as *;
+:root{
+    --color-gray:gray;
+}
+.inner {
+    display: flex;
+    column-gap: 20px;
+}
+.test {
+    width: 55%;
+    // border: 1px solid ;
+}
+.imgs {
+    width: 40%;
+    border: 1px solid #000;
+}
+.imgs-top {
+}
+.imgs-bottom {
+    // border: 1px solid ;
+    display: flex;
+    column-gap: 12px;
+    margin-top: 24px;
+}
+
+.imgs-bottom img{
+    width: 100%;
+}
+.test {
+    font-size: rem(20);
+    // padding-block: rem(20);
+    padding-block: rem(20) rem(30);
+    margin-block-start: rem(49);
+    inset: 0;
+    inline-size: 100%;
+    block-size: 100%;
+    border: 1px solid var(--color-gray);
+}
